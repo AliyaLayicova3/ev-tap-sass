@@ -1,0 +1,114 @@
+@use "base";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+i{
+    visibility: visible;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: base.$colorMain;
+    nav{
+        width: 100vw;
+        height: 10vh;
+    }
+    .one{
+        width: 50vw;
+        height: 10vh;
+        float: left;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        padding: 20px;
+        font-size: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .two{
+        width: 50vw;
+        height: 10vh;
+        float: left;
+        display: flex;
+        list-style-type: none;
+        justify-content: end;
+        font-size: 20px;
+        padding: 20px;
+        color: white;
+    }
+}
+main{
+    width: 100vw;
+    height: 90vh;
+        .bas{
+        width: 100vw;
+        height: 20vh;
+        .div{
+            width: 80vw;
+            height: 10vh;
+            float: left;
+            display: flex;
+            list-style-type: none;
+            justify-content: space-around;
+            font-size: 30px;
+            padding: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .req{
+            width: 15vw;
+            height: 8vh;
+            font-weight: 700;
+            margin-top: 20px;
+            border: base.$colorMain;
+            border-radius: 20px;
+            color: white;
+            background-color: base.$colorMain;
+        }
+    }
+    .es{
+        width: 100vw;
+        height: 70vh;
+    .little{
+        text-align: center;
+        color: base.$colorMain;
+        font-weight: 900;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .big{
+        text-align: center;
+        font-size: 70px;
+        text-transform: capitalize;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .lorem{
+        font-size: 20px;
+        text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .book{
+        width: 15vw;
+        height: 8vh;
+        font-weight: 700;
+        margin-left: 500px;        
+        margin-top: 20px;
+        border: base.$colorMain;
+        border-radius: 20px;
+        color: white;
+        background-color: base.$colorMain;
+    }
+    .our{
+        width: 15vw;
+        height: 8vh;
+        font-weight: 700;
+        margin-left: 100px;        
+        margin-top: 20px;
+        border: 5px solid base.$colorMain;
+        border-radius: 20px;
+        color: base.$colorMain;
+        background-color: white;
+    }
+
+}
+}

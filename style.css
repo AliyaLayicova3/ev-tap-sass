@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+i {
+  visibility: visible;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  background-color: cyan;
+}
+header nav {
+  width: 100vw;
+  height: 10vh;
+}
+header .one {
+  width: 50vw;
+  height: 10vh;
+  float: left;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header .two {
+  width: 50vw;
+  height: 10vh;
+  float: left;
+  display: flex;
+  list-style-type: none;
+  justify-content: end;
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+}
+
+main {
+  width: 100vw;
+  height: 90vh;
+}
+main .bas {
+  width: 100vw;
+  height: 20vh;
+}
+main .bas .div {
+  width: 80vw;
+  height: 10vh;
+  float: left;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  font-size: 30px;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+main .bas .req {
+  width: 15vw;
+  height: 8vh;
+  font-weight: 700;
+  margin-top: 20px;
+  border: cyan;
+  border-radius: 20px;
+  color: white;
+  background-color: cyan;
+}
+main .es {
+  width: 100vw;
+  height: 70vh;
+}
+main .es .little {
+  text-align: center;
+  color: cyan;
+  font-weight: 900;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .es .big {
+  text-align: center;
+  font-size: 70px;
+  text-transform: capitalize;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+main .es .lorem {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main .es .book {
+  width: 15vw;
+  height: 8vh;
+  font-weight: 700;
+  margin-left: 500px;
+  margin-top: 20px;
+  border: cyan;
+  border-radius: 20px;
+  color: white;
+  background-color: cyan;
+}
+main .es .our {
+  width: 15vw;
+  height: 8vh;
+  font-weight: 700;
+  margin-left: 100px;
+  margin-top: 20px;
+  border: 5px solid cyan;
+  border-radius: 20px;
+  color: cyan;
+  background-color: white;
+}/*# sourceMappingURL=style.css.map */
